@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "name": "Project 1",
+      "imageURLs": ["/projects/project1.jpg"],
+      "technology":["java","NodeJS"],
+      "shortdescription":"",
+      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+    }
+  ]
+}

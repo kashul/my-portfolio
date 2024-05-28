@@ -7,7 +7,7 @@
 
 import { useEffect } from 'react'
  
-export default function HomeError({
+export default function GlobalError({
   error,
   reset,
 }: {
@@ -20,7 +20,7 @@ export default function HomeError({
   }, [error])
  
   return (
-    <div>
+    <div style={{ height: '1000px'}}>
       <h2>Something went wrong!</h2>
       <button
         onClick={

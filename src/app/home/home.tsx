@@ -1,13 +1,49 @@
-
-
-
-
-
+import "../css/home.css";
+import rootdata from "../../master-date/home-data.json";
 
 export default function Home() {
   return (
-    <div style={{ height: 2000 }}>
-      <p>home</p>
-    </div>
+    <>
+      <div className="container  mx-auto md:h-screen">
+        <div className="flex flex-col-reverse md:flex-row h-full">
+          <div className="basis-1/2 self-center">
+            <div className="text-6xl text-slate-50">{rootdata.intro.name}</div>
+            <div className="text-4xl text-slate-100	">{rootdata.intro.role}</div>
+            <div className="text-2xl italic text-slate-200">
+              {rootdata.intro.selfIntro}
+            </div>
+          </div>
+          <div className="basis-1/2  w-full h-full">
+            <img
+              src={rootdata.intro.imageURL}
+              className=" h-full w-full imagefade"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="container  mx-auto md:h-screen">
+        <div className="flex  flex-row h-full">
+          <div className="hidden md:block md:basis-1/2  w-full h-full p-10">
+            <img
+              src={rootdata.skills.imageURL}
+              className=" h-full w-full   rounded-[50px] "
+            />
+          </div>
+          <div className="md:basis-1/2 flex flex-col self-center m-5">
+            <div className="text-6xl text-slate-50 my-10">Skills</div>
+            <div className="basis-1/2 flex  flex-wrap gap-10 self-center content-center">
+              {rootdata.skills.values.map((skill, i) => (
+                <div
+                  key={"skill" + i}
+                  className="bg-cyan-300 text-2xl text-slate-100 px-3 rounded-full "
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

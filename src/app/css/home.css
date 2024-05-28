@@ -1,0 +1,20 @@
+.intro {
+  height: 90vh;
+}
+
+.homeimage{
+  top: 0;
+  z-index: -10;
+ position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+@media (width > 640px) {
+
+}
+
+@media (width <= 640px) {
+ 
+}

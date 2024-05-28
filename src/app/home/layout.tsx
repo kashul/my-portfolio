@@ -1,35 +1,53 @@
 "use client";
-import { Suspense } from "react";
+import {  Suspense, useEffect, useState } from "react";
 import Loading from "../loading";
-import {ErrorBoundary} from "@/components/errorboundry";
-import HomeError from "./homeerror";
+import { ErrorBoundary } from "@/components/errorboundry";
+import HomeError from "./error";
+
+import rootdata from "../../master-date/home-data.json";
 
 
 
+import "../css/home.css";
 
-function reset(){
-console.log("Attempting to recover by re-rendering the segment...");
+function reset() {
+  console.log("Attempting to recover by re-rendering the segment...");
 }
 
 export default function HomeLayout({
-  children,activityRecent,projectRecent,recommendation
+  children,
+  activityRecent,
+  projectRecent,
+  recommendation,
 }: Readonly<{
   children: React.ReactNode;
   activityRecent: React.ReactNode;
   projectRecent: React.ReactNode;
   recommendation: React.ReactNode;
 }>) {
+  const [rootJsonData, setRootJsonData] = useState(rootdata);
+
+  useEffect(() => {
+    // Simulating data fetch
+    setRootJsonData(rootdata);
+  }, []);
+  console.log("rootJsonData", rootJsonData);
+
   return (
     <ErrorBoundary
-      fallback={<HomeError  reset={reset} error={new Error("An error occurred")}/>} 
-     
+      fallback={
+        <HomeError reset={reset} error={new Error("An error occurred")} />
+      }
     >
       <Suspense fallback={<Loading />}>
+        <img
+          className="homeimage sticky"
+          src={rootJsonData.backgroundImageURL}
+        />
         {children}
         {activityRecent}
         {projectRecent}
         {recommendation}
-     
       </Suspense>
     </ErrorBoundary>
   );

@@ -1,0 +1,26 @@
+{
+  "backgroundImageURL": "/rootbackground.jpg",
+  "intro": {
+    "name": "Kashul Hindagoda",
+    "role": "Software Engineer",
+    "selfIntro": "i'm bla bla bla",
+    "imageURL": "/intro/myimage.png"
+  },
+
+  "skills": {
+    "imageURL": "/skills/skills.jpg",
+    "values": [
+      "Java",
+      "Python",
+      "NodeJs",
+      "sql",
+      "Javascript",
+      "Angulat",
+      "Linux",
+      "NestJS",
+      "React",
+      "Nextjs",
+      "Tailwind"
+    ]
+  }
+}

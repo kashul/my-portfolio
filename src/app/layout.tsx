@@ -3,8 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ToTop } from "@/components/to-top";
-import { Suspense } from "react";
-import Loading from "./loading";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,14 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={inter.className}>
+      <body id="body" className={inter.className}>
         <Navbar />
         {/* we can us ith other layout to partily loading */}
 
       
+        {/* loading component cant be added to any the layout component  */}
+        {/* <Suspense fallback={<Loading/>}>{children}</Suspense>*/}
 
-        <Suspense fallback={<Loading/>}>{children}</Suspense>
-      
+      {children}
 
 
         <ToTop />

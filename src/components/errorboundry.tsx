@@ -1,7 +1,9 @@
+'use client';
+
 import React from "react";
 
 
-
+''
 
 export class ErrorBoundary extends React.Component<{fallback:any,children:React.ReactNode},{ hasError: boolean }> {
     constructor(props: {fallback:any,children:React.ReactNode}) {
