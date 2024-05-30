@@ -4,7 +4,7 @@ import rootdata from "../../master-date/home-data.json";
 export default function Home() {
   return (
     <>
-      <div className="container  mx-auto md:h-screen">
+      <div className="container mx-auto   md:h-screen w-full">
         <div className="flex flex-col-reverse md:flex-row h-full">
           <div className="basis-1/2 self-center">
             <div className="text-6xl text-slate-50">{rootdata.intro.name}</div>
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container  mx-auto md:h-screen">
+      <div className="container mx-auto   md:h-screen">
         <div className="flex  flex-row h-full">
           <div className="hidden md:block md:basis-1/2  w-full h-full p-10">
             <img
@@ -35,9 +35,11 @@ export default function Home() {
               {rootdata.skills.values.map((skill, i) => (
                 <div
                   key={"skill" + i}
-                  className="bg-cyan-300 text-2xl text-slate-100 px-3 rounded-full "
+                  className="flex  flex-row bg-cyan-300 text-2xl px-3 rounded-full self-center "
                 >
-                  {skill}
+                  <img className="h-10" src={skill.icon}  />
+                  <div className="text-slate-100 self-center px-2" >{skill.name}</div>
+                  
                 </div>
               ))}
             </div>

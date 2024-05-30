@@ -39,14 +39,16 @@ export default function HomeLayout({
         <HomeError reset={reset} error={new Error("An error occurred")} />
       }
     >
+      
       <Suspense fallback={<Loading />}>
         <img
           className="homeimage sticky"
           src={rootJsonData.backgroundImageURL}
         />
         {children}
-        {activityRecent}
         {projectRecent}
+        {activityRecent}
+    
         {recommendation}
       </Suspense>
     </ErrorBoundary>

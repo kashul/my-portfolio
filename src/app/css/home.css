@@ -9,7 +9,18 @@
   width: 100vw;
   height: 100vh;
 }
+.project-background{
+  background-color:rgba(255, 255, 255, 0.6);
 
+
+}
+.zindex{
+  z-index: 10;
+}
+.zindex button {
+  /* z-index: 100000 !important; */
+  /* display: none; */
+}
 
 @media (width > 640px) {
 
@@ -17,4 +28,26 @@
 
 @media (width <= 640px) {
  
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center;
+  font-size: 18px; */
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

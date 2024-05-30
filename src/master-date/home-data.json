@@ -10,17 +10,29 @@
   "skills": {
     "imageURL": "/skills/skills.jpg",
     "values": [
-      "Java",
-      "Python",
-      "NodeJs",
-      "sql",
-      "Javascript",
-      "Angulat",
-      "Linux",
-      "NestJS",
-      "React",
-      "Nextjs",
-      "Tailwind"
+      {"name":"Java",
+    "icon":"/skills/java.png"},
+    {"name":"Python",
+    "icon":"/skills/java.png"},
+    {"name":"NodeJs",
+    "icon":"/skills/java.png"},
+    {"name":"sql",
+    "icon":"/skills/sql.png"},
+    {"name":"Javascript",
+    "icon":"/skills/java.png"},
+    {"name":"Angular",
+    "icon":"/skills/angular.png"},
+    {"name":"Java",
+    "icon":"/skills/java.png"},
+    {"name":"Linux",
+    "icon":"/skills/java.png"},
+    {"name":"Nextjs",
+    "icon":"/skills/java.png"},
+    {"name":"Tailwind",
+    "icon":"/skills/java.png"},
+    {"name":"React",
+    "icon":"/skills/react.png"}
+     
     ]
   }
 }
