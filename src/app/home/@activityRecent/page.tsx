@@ -41,6 +41,7 @@ export default function ActivityRoute() {
         loop={true}
         slidesPerView={3}
         spaceBetween={30}
+        grabCursor={true}
         breakpoints={{
           "@0.00": {
             slidesPerView: 1,

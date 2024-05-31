@@ -36,6 +36,7 @@ export default function ProjectRoute() {
               loop={true}
               slidesPerView={3}
               spaceBetween={30}
+              grabCursor={true}
               breakpoints={{
                 "@0.00": {
                   slidesPerView: 1,
@@ -79,7 +80,7 @@ export default function ProjectRoute() {
                   return (
                     <SwiperSlide key={"project" + index}>
                       {" "}
-                      <article className="flex max-w-xl flex-col items-start mx-3  h-full">
+                      <article className="flex  flex-col items-start mx-3  h-full">
                         <div className="flex flex-col items-center justify-center h-[30%] w-full">
                           <img
                             className=" h-full w-full rounded-t-[24px]"
