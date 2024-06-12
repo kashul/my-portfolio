@@ -39,6 +39,30 @@
       "date":"2024-05-24",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+    },
+    {
+      "name": "Project 1",
+      "imageURLs": ["/projects/project1.jpg"],
+      "technology":["java","NodeJS"],
+      "date":"2024-05-24",
+      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
+      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+    },
+    {
+      "name": "Project 1",
+      "imageURLs": ["/projects/project1.jpg"],
+      "technology":["java","NodeJS"],
+      "date":"2024-05-24",
+      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
+      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+    },
+    {
+      "name": "Project 1",
+      "imageURLs": ["/projects/project1.jpg"],
+      "technology":["java","NodeJS"],
+      "date":"2024-05-24",
+      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
+      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     }
   ]
 }

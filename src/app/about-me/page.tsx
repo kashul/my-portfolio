@@ -1,5 +1,5 @@
 import rootdata from "../../master-date/about-me.json";
-
+import "../../app/css/aboutme.css";
 export default function Page() {
   return (
     <>
@@ -36,17 +36,17 @@ export default function Page() {
         </div>
       </div>
       <div className="container mx-auto   md:h-screen w-full">
-        <div className="flex flex-col  h-full space-y-8">
+        <div className="flex flex-col   space-y-8">
           
             <div className="text-6xl text-slate-50">Expireance</div>
 
           
           <div className="w-full   ">
-            <div className="   grid grid-cols-2  md:grid-cols-3 gap-4">
+            <div className="   grid grid-cols-1  md:grid-cols-3 gap-4 ">
               
               {rootdata.experiance.map((a, i) => {
                 return (
-                  <div key={"ex" + i} className="">
+                  <div key={"ex" + i} className="rounded-lg expireance-background p-[10px]">
                     
                     <div className="text-xl text-slate-50">{a.companyname}</div>
                     <div className=" text-base text-slate-50 ">
@@ -58,6 +58,27 @@ export default function Page() {
                     <div className=" text-sm text-slate-50 ">
                       {a.duration} | {a.time}
                     </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container mx-auto   md:h-screen w-full">
+        <div className="flex flex-col   space-y-8">
+          
+            <div className="text-6xl text-slate-50">Certificates</div>
+
+          
+          <div className="w-full   ">
+            <div className="   grid grid-cols-1  md:grid-cols-3 gap-4 ">
+              
+              {rootdata.experiance.map((a, i) => {
+                return (
+                  <div key={"ex" + i} className="rounded-lg expireance-background p-[10px]">
+                    
+                  
                   </div>
                 );
               })}
