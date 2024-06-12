@@ -2,13 +2,7 @@
   height: 90vh;
 }
 
-.homeimage{
-  top: 0;
-  z-index: -10;
- position: fixed;
-  width: 100vw;
-  height: 100vh;
-}
+
 .project-background{
   background-color:rgba(255, 255, 255, 0.6);
 

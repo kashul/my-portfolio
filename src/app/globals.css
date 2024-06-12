@@ -49,6 +49,21 @@ body {
    background-color: black;
 }
 
+#navbar{
+  
+  z-index: 100000!important;
+}
+#totop{
+
+  z-index: 100000!important;
+}
+.homeimage{
+  top: 0;
+  z-index: -10;
+ position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

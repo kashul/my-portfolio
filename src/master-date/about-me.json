@@ -1,0 +1,56 @@
+{
+    "educations":{
+        "introduction":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor",
+       "range":"2014-2022",
+        "roadmap":[
+            {
+                "achivement":"B.Sc. (Hons) in Electrical and Information Engineering",
+                "date":"Dec 2022",
+                "score":"OGPA:2.92",
+                "field":"Faculty of Engineering",
+                "institute":"University of Ruhuna"
+
+
+            },
+            {
+                "achivement":"Higher School Certificate (HSC)",
+                "date":"Aug 2022",
+                "score":"Math:B,Chem:B,Phy:A",
+                "field":"Science",
+                "institute":"Maliyadeva collage"
+
+
+            }
+        ]
+    },
+    "experiance":[
+        {
+         "companyname":"Company 1",
+         "role":"software engineer",
+         "duration":"Dec 2022 - Dec 2023",
+         "time":"2 yr 3 mon",
+          "tech":"java | python |c++"
+        },
+        {
+            "companyname":"Company 1",
+            "role":"software engineer",
+            "duration":"Dec 2022 - Dec 2023",
+            "time":"2 yr 3 mon",
+            "tech":"java | python |c++"
+           },
+           {
+            "companyname":"Company 1",
+            "role":"software engineer",
+            "duration":"Dec 2022 - Dec 2023",
+            "time":"2 yr 3 mon",
+             "tech":"java | python |c++"
+           },
+           {
+            "companyname":"Company 1",
+            "role":"software engineer",
+            "duration":"Dec 2022 - Dec 2023",
+            "time":"2 yr 3 mon",
+             "tech":"java | python |c++"
+           }
+    ]
+}

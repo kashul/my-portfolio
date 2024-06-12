@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ToTop } from "@/components/to-top";
 
+import rootdata from "../master-date/home-data.json";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,9 +20,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  // const [rootJsonData, setRootJsonData] = useState(rootdata);
+  // useEffect(() => {
+  //   // Simulating data fetch
+  //   setRootJsonData(rootdata);
+  // }, []);
   return (
     <html lang="en" >
       <body id="body" className={inter.className}>
+      <img
+          className="homeimage sticky"
+          src={rootdata.backgroundImageURL}
+        />
         <Navbar />
         {/* we can us ith other layout to partily loading */}
 

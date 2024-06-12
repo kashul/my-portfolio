@@ -57,7 +57,7 @@ export default function NavBar() {
   const pathname = usePathname();
 
   return (
-    <Disclosure  as="nav" className="sticky  top-0  ">
+    <Disclosure id='navbar' as="nav" className="sticky  top-0  ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

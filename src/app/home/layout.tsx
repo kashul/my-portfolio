@@ -41,10 +41,10 @@ export default function HomeLayout({
     >
       
       <Suspense fallback={<Loading />}>
-        <img
+        {/* <img
           className="homeimage sticky"
           src={rootJsonData.backgroundImageURL}
-        />
+        /> */}
         {children}
         {projectRecent}
         {activityRecent}
