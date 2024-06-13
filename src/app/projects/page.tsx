@@ -1,12 +1,13 @@
 "use client";
 import rootdataprojects from "../../master-date/projects.json";
-import rootdatactivties from "../../master-date/projects.json";
-import "../../app/css/aboutme.css";
+import rootdatactivties from "../../master-date/activities.json";
+import "../../app/css/project.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import "swiper/css/pagination";
 import 'swiper/css/grid';
 import { Grid } from 'swiper/modules';
+import Image from "next/image";
 export default function Page() {
 
   
@@ -54,10 +55,8 @@ export default function Page() {
                     <SwiperSlide key={"pro" + i} >
                       <article className="flex  flex-col items-start mx-3  h-full">
                         <div className="flex flex-col items-center justify-center h-[80%] w-full">
-                          <img
-                            className="  "
-                            src={project.imageURLs[0]}
-                          />
+                        <Image src={project.imageURLs[0]} alt={""} width={1000} height={1000}/>
+                         
                         </div>
                         <div className=" relative w-full flex flex-col  h-[20%] ">
                         <div className=" px-2 group relative  w-full  ">

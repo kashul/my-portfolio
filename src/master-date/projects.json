@@ -1,6 +1,6 @@
 {
   "projects": [
-    {
+    { "id":"1",
       "name": "Project 1 Lorem ipsum dolor sit amet, consectetur   Nunc sit amet nulla auctor",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS","SQL","angular"],
@@ -8,15 +8,15 @@
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
-    {
+    { "id":"2",
       "name": "Project 1",
-      "imageURLs": ["/projects/project1.jpg"],
+      "imageURLs": ["/projects/project1.jpg","/projects/project2.png"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex.",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex."]
     },
-    {
+    { "id":"3",
       "name": "Project 1",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
@@ -24,7 +24,7 @@
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
-    {
+    { "id":"4",
       "name": "Project 1",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
@@ -32,7 +32,7 @@
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
-    {
+    { "id":"5",
       "name": "Project 1",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
@@ -40,7 +40,7 @@
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
-    {
+    { "id":"6",
       "name": "Project 1",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
@@ -48,7 +48,7 @@
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
-    {
+    { "id":"7",
       "name": "Project 1",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
@@ -56,7 +56,7 @@
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
-    {
+    { "id":"8",
       "name": "Project 1",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
