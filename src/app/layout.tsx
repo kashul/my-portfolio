@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import { ToTop } from "@/components/to-top";
 
 import rootdata from "../master-date/home-data.json";
+import Image from "next/image";
 
 
 
@@ -29,10 +30,12 @@ export default function RootLayout({
   return (
     <html lang="en" >
       <body id="body" className={inter.className}>
-      <img
+        <Image className="homeimage sticky"
+        src={rootdata.backgroundImageURL} width={100000} height={100000} alt={""}/>
+      {/* <img
           className="homeimage sticky"
           src={rootdata.backgroundImageURL}
-        />
+        /> */}
         <Navbar />
         {/* we can us ith other layout to partily loading */}
 

@@ -1,17 +1,12 @@
 "use client";
 import rootdataprojects from "../../../../master-date/projects.json";
 import rootdatactivties from "../../../../master-date/activities.json";
-import React, { useRef, useState } from 'react';
-import "../../../../app/css/project.css";
-import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
-import 'swiper/css/thumbs';
-import { FreeMode, EffectFade, Thumbs } from 'swiper/modules';
+import Project from "./project/project";
+import Activity from "./activity/activity";
 
-import type { Swiper as SwiperRef } from 'swiper';
-import Image from "next/image";
+
+
+
 
 
 export default function Page({
@@ -21,154 +16,42 @@ export default function Page({
 }) {
  
 
-  const [swiperInstance, setSwiperInstance] = useState<SwiperClass|null>(null);
+ 
   if (params.viewtype === "project") {
     const project = rootdataprojects.projects.find(
       (project) => project.id === params.id
-    );
+    )|| {
+      id: "0",
+      name: "Loading...",
+      imageURLs: [],
+      technology: [],
+      date: "0",
+      shortdescription: "Loading...",
+      descriptions: [],
+    };
 
     return (
       <>
-      
-        <div className="container mx-auto  ">
-          <div className="flex flex-col   space-y-4 ">
-            <div className="text-6xl text-slate-50 ">{project?.name}</div>
-            <div className="text-xl text-slate-50 ">{project?.date}</div>
-            <div className=" flex  "> {project?.technology.map((skill, i) => (
-                <div
-                  key={"tech" + i}
-                  className=" bg-cyan-300 text-2xl px-3 mr-3 rounded-full  "
-                >
-                
-                  <div className="text-slate-100  px-2" >{skill}</div>
-                  
-                </div>
-              ))}
-              </div>
-
-            <div className="w-full h-[400px] md:h-screen md:p-10 ">
-              <Swiper
-                style={
-                  {
-                    "--swiper-navigation-color": "#fff",
-                    "--swiper-pagination-color": "#fff",
-                  } as React.CSSProperties
-                }
-                spaceBetween={10}
-                effect={'fade'}
-                thumbs={{ swiper: swiperInstance }}
-                modules={[FreeMode,EffectFade, Thumbs]}
-                grabCursor={true}
-                className="mySwiper2"
-              >
-                {project?.imageURLs.map((imageURL, i) => {
-                           return( <SwiperSlide key={"proimgbase" + i}>
-                            <Image src={imageURL} alt={""} width={1000} height={1000}/>
-                            {/* <img src={imageURL} /> */}
-                            </SwiperSlide>)
-                })}
-               
-               
-              </Swiper>
-              <Swiper
-                // onSwiper={(swiper) => console.log('swiper')}
-                onClick={(swiper,event) =>{setSwiperInstance(swiper)}}
-                spaceBetween={10}
-                centeredSlides={true}
-                slidesPerView={4}
-                freeMode={true}
-                watchSlidesProgress={true}
-                modules={[FreeMode, Thumbs]}
-                grabCursor={true}
-                className="mySwiper1"
-              >
-                {project?.imageURLs.map((imageURL, i) => {
-                           return( <SwiperSlide key={"proimgbottom" + i}>
-                              <Image src={imageURL} alt={""} width={1000} height={1000}/>
-                            </SwiperSlide>)
-                })}
-              </Swiper>
-            </div>
-            <div className=" ">
-            {project?.descriptions.map((des, i) => (
-                <p className="text-xl text-slate-50">
-                
-                  {des}
-                  
-                </p>
-              ))}
-            </div>
-          </div>
-        </div>
+      <Project project={project}></Project>
+       
       </>
     );
   } else if (params.viewtype === "activity") {
     const activity = rootdatactivties.activities.find(
       (activity) => activity.id === params.id
-    );
+    )|| {
+      id: "0",
+      name: "Loading...",
+      imageURLs: [],
+      technology: [],
+      date: "0",
+      shortdescription: "Loading...",
+      descriptions: [],
+    };
 
     return (
       <>
-         <div className="container mx-auto  ">
-          <div className="flex flex-col   space-y-4 ">
-            <div className="text-6xl text-slate-50 ">{activity?.name}</div>
-            <div className="text-xl text-slate-50 ">{activity?.date}</div>
-          
-
-            <div className="w-full h-[400px] md:h-screen md:p-10 ">
-              <Swiper
-                style={
-                  {
-                    "--swiper-navigation-color": "#fff",
-                    "--swiper-pagination-color": "#fff",
-                  } as React.CSSProperties
-                }
-                spaceBetween={10}
-                effect={'fade'}
-                thumbs={{ swiper: swiperInstance }}
-                modules={[FreeMode,EffectFade, Thumbs]}
-                grabCursor={true}
-                className="mySwiper2"
-              >
-                {activity?.imageURLs.map((imageURL, i) => {
-                           return( <SwiperSlide key={"proimgbase" + i}>
-                            <Image src={imageURL} alt={""} width={1000} height={1000}/>
-                            {/* <img src={imageURL} /> */}
-                            </SwiperSlide>)
-                })}
-               
-               
-              </Swiper>
-              <Swiper
-                // onSwiper={(swiper) => console.log('swiper')}
-                onClick={(swiper,event) =>{setSwiperInstance(swiper)}}
-                spaceBetween={10}
-                centeredSlides={true}
-                slidesPerView={4}
-                freeMode={true}
-                watchSlidesProgress={true}
-                modules={[FreeMode, Thumbs]}
-                grabCursor={true}
-                className="mySwiper1"
-              >
-                {activity?.imageURLs.map((imageURL, i) => {
-                           return( <SwiperSlide key={"proimgbottom" + i}>
-                              <Image src={imageURL} alt={""} width={1000} height={1000}/>
-                            </SwiperSlide>)
-                })}
-              </Swiper>
-            </div>
-            <div className=" ">
-            {activity?.descriptions.map((des, i) => (
-                <p className="text-xl text-slate-50">
-                
-                  {des}
-                  
-                </p>
-              ))}
-            </div>
-          </div>
-        </div>
+        <Activity activity={activity}></Activity>
       </>
     );
   }

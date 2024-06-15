@@ -1,5 +1,5 @@
-import "../css/home.css";
-import rootdata from "../../master-date/home-data.json";
+import "../../css/home.css";
+import rootdata from "../../../master-date/home-data.json";
 
 export default function Home() {
   return (
