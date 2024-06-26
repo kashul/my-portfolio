@@ -9,7 +9,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"2",
-      "name": "Project 1",
+      "name": "Project 2",
       "imageURLs": ["/projects/project1.jpg","/projects/project2.png"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
@@ -17,7 +17,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex."]
     },
     { "id":"3",
-      "name": "Project 1",
+      "name": "Project 3",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
@@ -25,7 +25,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"4",
-      "name": "Project 1",
+      "name": "Project 4",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
@@ -33,7 +33,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"5",
-      "name": "Project 1",
+      "name": "Project 5",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
@@ -41,7 +41,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"6",
-      "name": "Project 1",
+      "name": "Project 6",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
@@ -49,7 +49,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"7",
-      "name": "Project 1",
+      "name": "Project 7",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
@@ -57,7 +57,7 @@
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"8",
-      "name": "Project 1",
+      "name": "Project 8",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",

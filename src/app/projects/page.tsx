@@ -8,15 +8,17 @@ import "swiper/css";
 import 'swiper/css/grid';
 import { Grid } from 'swiper/modules';
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from 'next/navigation'
 export default function Page() {
 
-  
+  const router = useRouter()
   return (
-    <>   <div className="container mx-auto h-screen   md:h-screen w-full">
+    <>   <div className="container mx-auto h-screen   md:h-screen w-full py-10 ">
     <div className="flex flex-col   space-y-8 h-full">
       
         <div className="text-6xl text-slate-50 h-[10%]">Projects</div>
-
+       
       
       <div className="w-full   h-[90%]">
         
@@ -52,8 +54,11 @@ export default function Page() {
             >
               {rootdataprojects.projects.map((project, i) => {
                   return (
+                    
                     <SwiperSlide key={"pro" + i} >
-                      <article className="flex  flex-col items-start mx-3  h-full">
+                      <article className="flex  flex-col items-start mx-3  h-full" onClick={() => {
+                   router.push(`/view/project/${project.id}`)
+                 }}>
                         <div className="flex flex-col items-center justify-center h-[80%] w-full">
                         <Image src={project.imageURLs[0]} alt={""} width={1000} height={1000}/>
                          

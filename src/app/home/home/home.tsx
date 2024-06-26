@@ -1,11 +1,18 @@
 import "../../css/home.css";
 import rootdata from "../../../master-date/home-data.json";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <div className="container mx-auto   md:h-screen w-full">
-        <div className="flex flex-col-reverse md:flex-row h-full">
+        <div className="flex flex-col  md:flex-row h-full">
+        <div className="basis-1/2  w-full h-full">
+            <Image 
+            width={1200} height={1560}
+              src={rootdata.intro.imageURL}
+              alt={""}            />
+          </div>
           <div className="basis-1/2 self-center">
             <div className="text-6xl text-slate-50">{rootdata.intro.name}</div>
             <div className="text-4xl text-slate-100	">{rootdata.intro.role}</div>
@@ -13,12 +20,7 @@ export default function Home() {
               {rootdata.intro.selfIntro}
             </div>
           </div>
-          <div className="basis-1/2  w-full h-full">
-            <img
-              src={rootdata.intro.imageURL}
-              className=" h-full w-full imagefade"
-            />
-          </div>
+        
         </div>
       </div>
       <div className="container mx-auto   md:h-screen">
