@@ -1,0 +1,23 @@
+{
+  "socials": [
+
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/kashul-hindagoda/",
+      "iconUrl": "/social/linkedin.png"
+    },
+    {
+        "name": "git",
+        "link": "https://github.com/kashul",
+        "iconUrl": "/social/git.png"
+      },
+      {
+        "name": "medium",
+        "link": "https://medium.com/@kasulkenuka",
+        "iconUrl": "/social/medium.png"
+      }
+    
+  ],
+  "email":"kasulkenuka@gmail.com",
+  "mobile":"+94 71 5895 862"
+}
