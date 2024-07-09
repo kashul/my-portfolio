@@ -16,15 +16,15 @@ export default function RecommendationRoute() {
     
   return  <div className=" container mx-auto  h-screen ">
   <div className="flex flex-col h-full ">
-    <div className="text-6xl text-slate-50 pt-5 h-1/6">Recomendations</div>
+    <div className=" text-5xl  md:text-6xl text-slate-50  	w-full pt-5 h-1/6">Recomendations</div>
     <div className="zindex  h-5/6 flex items-center">
       <Swiper
         loop={true}
         slidesPerView={1}
-        spaceBetween={60}
+        spaceBetween={15}
         centeredSlides={true}
         grabCursor={true}
-       
+      
         className="mySwiper"
       >
         {recommendationdata.recommendations.map(
@@ -41,7 +41,7 @@ export default function RecommendationRoute() {
             return (
               <SwiperSlide key={"project" + index}>
                 {" "}
-                <article className="flex  flex-col items-center  mx-auto  h-full   md:flex-row md:mx-10 md:py-10 ">
+                <article className="flex  flex-col items-center  mx-3  h-full   md:flex-row md:mx-10 md:py-10 ">
                   <div className=" items-center justify-center h-[40%] w-full rounded-t-[24px] md:h-full project-background  md:rounded-l-[24px] md:rounded-tr-[0px]">
                     <img
                       className=" h-full w-auto py-1 md:p-5 w-auto rounded-full"

@@ -9,9 +9,11 @@ export default function Home() {
         <div className="flex flex-col  md:flex-row h-full">
         <div className="basis-1/2  w-full h-full">
             <Image 
-            width={1200} height={1560}
+            width={600} height={(1560/1200)*600}
               src={rootdata.intro.imageURL}
-              alt={""}            />
+              alt={""} 
+              
+                       />
           </div>
           <div className="basis-1/2 self-center">
             <div className="text-6xl text-slate-50">{rootdata.intro.name}</div>

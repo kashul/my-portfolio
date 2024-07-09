@@ -1,5 +1,5 @@
 
-import "@/app/css/project.css";
+// import "@/app/css/project.css";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/free-mode';

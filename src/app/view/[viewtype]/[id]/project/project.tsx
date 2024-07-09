@@ -43,7 +43,10 @@ export default function Project({project}:{project: {
           {
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
+           
+            
           } as React.CSSProperties
+          
         }
         spaceBetween={10}
         effect={'fade'}
@@ -54,14 +57,16 @@ export default function Project({project}:{project: {
       >
         {project?.imageURLs.map((imageURL: string, i: number) => {
                    return( <SwiperSlide key={"proimgbase" + i}>
-                    <Image src={imageURL} alt={""} width={1000} height={1000}/>
-                    {/* <img src={imageURL} /> */}
+                    {/* <Image src={imageURL} alt={""} width={1000} height={1000}/> */}
+                    <img src={imageURL} />
                     </SwiperSlide>)
         })}
        
        
       </Swiper>
       <Swiper
+   
+        
         // onSwiper={(swiper) => console.log('swiper')}
         onClick={(swiper,event) =>{setSwiperInstance(swiper)}}
         spaceBetween={10}
@@ -75,7 +80,7 @@ export default function Project({project}:{project: {
       >
         {project?.imageURLs.map((imageURL: string, i: number) => {
                    return( <SwiperSlide key={"proimgbottom" + i}>
-                      <Image src={imageURL} alt={""} width={1000} height={1000}/>
+                      <Image src={imageURL} alt={""} width={200} height={50}/>
                     </SwiperSlide>)
         })}
       </Swiper>

@@ -14,8 +14,8 @@ export default function Footer() {
     <footer className="bg-slate-600  ">
       <div className="container mx-auto p-4">
         <div className="flex flex-col justify-center">
-            <div className="flex flex-wrap justify-center">
-            <div className="w-full flex flex-col   md:w-1/2 xl:w-1/3 px-4 space-y-4">
+            <div className="flex flex-wrap justify-center space-y-4">
+            <div className="w-full flex flex-col    md:w-1/2 xl:w-1/3 md:px-4 space-y-4">
             <div className="w-full flex flex-row items-center justify-center  px-4 space-x-4">
             {socialdata.socials.map((social, i) => {
 

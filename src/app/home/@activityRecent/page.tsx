@@ -36,7 +36,7 @@ export default function ActivityRoute() {
   return  <div className=" container mx-auto  h-screen ">
   <div className="flex flex-col h-full ">
     <div className="text-6xl text-slate-50 pt-5 h-1/6">Activities</div>
-    <div className="zindex  h-5/6 flex items-center">
+    <div className="zindex  h-4/6 flex items-center">
       <Swiper
         loop={true}
         slidesPerView={3}
