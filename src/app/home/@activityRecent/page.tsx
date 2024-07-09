@@ -33,7 +33,7 @@ export default function ActivityRoute() {
 
 
 
-  return  <div className=" container mx-auto  h-screen ">
+  return  activitiesdata.activities.length>0?<div className=" container mx-auto  h-screen ">
   <div className="flex flex-col h-full ">
     <div className="text-6xl text-slate-50 pt-5 h-1/6">Activities</div>
     <div className="zindex  h-4/6 flex items-center">
@@ -81,7 +81,7 @@ export default function ActivityRoute() {
             index
           ) => {
             return (
-              <SwiperSlide key={"project" + index}>
+              <SwiperSlide key={"activity" + index}>
                 {" "}
                 <article className="flex max-w-xl flex-col items-start mx-3  h-full">
                   <div className="flex flex-col items-center justify-center h-[30%] w-full">
@@ -121,5 +121,5 @@ export default function ActivityRoute() {
       </Swiper>
     </div>
   </div>
-</div>
+</div>:""
 }

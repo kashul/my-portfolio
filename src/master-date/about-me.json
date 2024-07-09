@@ -52,5 +52,32 @@
             "time":"2 yr 3 mon",
              "tech":"java | python |c++"
            }
+    ],
+    "certificates":[
+        {
+         "name":"Climate Smart Initiatives (Pvt) Ltd",
+         "image":"/certificates/project1.jpg",
+         "link":"https://www.linkedin.com/in/kashul-hindagoda/"
+          
+        },
+        {
+            "name":"Climate Smart Initiatives (Pvt) Ltd",
+            "image":"/certificates/project1.jpg",
+            "link":""
+             
+           },
+           {
+            "name":"Climate Smart Initiatives (Pvt) Ltd",
+            "image":"/certificates/project1.jpg",
+            "link":""
+             
+           },
+           {
+            "name":"Climate Smart Initiatives (Pvt) Ltd",
+            "image":"/certificates/project1.jpg",
+            "link":""
+             
+           }
     ]
+    
 }

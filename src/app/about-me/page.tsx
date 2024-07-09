@@ -1,9 +1,10 @@
 import rootdata from "../../master-date/about-me.json";
 import "../../app/css/aboutme.css";
+import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <div className="container mx-auto   md:h-screen w-full">
+      <div className="container mx-auto   py-20 w-full">
         <div className="flex flex-col md:flex-row h-full space-y-4">
           <div className="basis-1/2 self-center">
             <div className="text-6xl text-slate-50">Educations</div>
@@ -35,7 +36,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto   md:h-screen w-full">
+      {rootdata.experiance.length>0?<div className="container mx-auto py-10  my-10 w-full">
         <div className="flex flex-col   space-y-8">
           
             <div className="text-6xl text-slate-50">Expireance</div>
@@ -64,28 +65,50 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container mx-auto   md:h-screen w-full">
+      </div>:""}
+      {rootdata.certificates.length > 0? <div className="container mx-auto  py-10  ">
         <div className="flex flex-col   space-y-8">
           
-            <div className="text-6xl text-slate-50">Certificates</div>
+            <div className="text-6xl text-slate-50 ">Certificates</div>
 
           
-          <div className="w-full   ">
+          <div className="w-full ">
             <div className="   grid grid-cols-1  md:grid-cols-3 gap-4 ">
               
-              {rootdata.experiance.map((a, i) => {
+              {rootdata.certificates.map((a, i) => {
                 return (
-                  <div key={"ex" + i} className="rounded-lg expireance-background p-[10px]">
-                    
-                  
-                  </div>
+                  <article className="flex  flex-col items-start mx-3  " key={"cert" + i}>
+                         <div className="flex flex-col items-center justify-center  w-full">
+                         <Image src={a.image} alt={""} width={300} height={100}/>
+                          
+                         </div>
+                         <div className=" relative w-full flex flex-col   ">
+                         <div className=" px-2  relative  w-full  ">
+                         <h3 className="mt-1 text-lg font-semibold leading-6 text-gray-100 hover:text-gray-600 line-clamp-2">
+                               
+                                
+                                 {a.name}
+                              
+                             </h3>
+                             <h4 className="mt-1 text-lg font-semibold leading-6 text-blue-600	  line-clamp-2">
+                               
+                              <a href={a.link} target="_blank" rel="noreferrer">More...</a>
+                              
+                            
+                           </h4>
+                            
+                         </div>
+                           
+                          
+                         </div>
+                       </article>
                 );
               })}
             </div>
           </div>
         </div>
-      </div>
+      </div>:""}
+     
     </>
   );
 }

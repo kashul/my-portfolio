@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="w-full flex flex-row items-center justify-center  px-4 space-x-4">
             {socialdata.socials.map((social, i) => {
 
-return <> <a href={social.link}>  <img className="h-10" src={social.iconUrl}  /></a></>
+return  <a key={"soci"+i}  href={social.link}>  <img className="h-10" src={social.iconUrl}  /></a>
 })}
             </div>
          <div className="w-full flex flex-row "><img className="h-5 pr-2" src="/others/mobile-phone.png"  /> {socialdata.mobile}</div>

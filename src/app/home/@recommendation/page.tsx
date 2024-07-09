@@ -14,7 +14,7 @@ import { Autoplay } from "swiper/modules";
 
 export default function RecommendationRoute() {
     
-  return  <div className=" container mx-auto  h-screen ">
+  return  recommendationdata.recommendations.length>0?<div className=" container mx-auto  h-screen ">
   <div className="flex flex-col h-full ">
     <div className=" text-5xl  md:text-6xl text-slate-50  	w-full pt-5 h-1/6">Recomendations</div>
     <div className="zindex  h-5/6 flex items-center">
@@ -39,7 +39,7 @@ export default function RecommendationRoute() {
             index
           ) => {
             return (
-              <SwiperSlide key={"project" + index}>
+              <SwiperSlide key={"rec" + index}>
                 {" "}
                 <article className="flex  flex-col items-center  mx-3  h-full   md:flex-row md:mx-10 md:py-10 ">
                   <div className=" items-center justify-center h-[40%] w-full rounded-t-[24px] md:h-full project-background  md:rounded-l-[24px] md:rounded-tr-[0px]">
@@ -75,5 +75,5 @@ export default function RecommendationRoute() {
       </Swiper>
     </div>
   </div>
-</div>
+</div>:""
   }

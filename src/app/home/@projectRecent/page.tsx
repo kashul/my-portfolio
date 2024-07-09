@@ -27,8 +27,8 @@ export default function ProjectRoute() {
   });
 
   return (
-    <>
-      <div className=" container mx-auto  h-screen ">
+    
+      products.length>0?<div className=" container mx-auto  h-screen ">
         <div className="flex flex-col h-full ">
           <div className="text-6xl text-slate-50 pt-5 h-1/6">Projects</div>
           <div className="zindex  h-4/6 flex items-center">
@@ -128,6 +128,6 @@ export default function ProjectRoute() {
           </div>
         </div>
       </div>
-    </>
+   :""
   );
 }

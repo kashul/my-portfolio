@@ -27,7 +27,7 @@ export default function Project({project}:{project: {
     <div className="text-xl text-slate-50 ">{project?.date}</div>
     <div className=" flex  "> {project?.technology.map((skill:string, i: number) => (
         <div
-          key={"tech" + i}
+          key={"protech" + i}
           className=" bg-cyan-300 text-2xl px-3 mr-3 rounded-full  "
         >
         

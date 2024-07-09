@@ -131,7 +131,7 @@ export default function Page() {
               {rootdatactivties.activities.map((activity, i) => {
                   return (
                     
-                    <SwiperSlide key={"pro" + i} >
+                    <SwiperSlide key={"act" + i} >
                       <article className="flex  flex-col items-start mx-3  h-full" onClick={() => {
                    router.push(`/view/activity/${activity.id}`)
                  }}>
