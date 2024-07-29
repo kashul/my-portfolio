@@ -43,8 +43,9 @@ export default function Home() {
               {rootdata.skills.values.map((skill, i) => (
                 <div
                   key={"skill" + i}
-                  className="flex  flex-row bg-cyan-300 text-2xl px-3 rounded-full self-center "
+                  className="flex  flex-row bg-cyan-300 text-2xl px-3 rounded-full self-center box"
                 >
+                  
                   <img className="h-10" src={skill.icon} />
                   <div className="text-slate-100 self-center px-2">
                     {skill.name}
