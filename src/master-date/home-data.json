@@ -3,7 +3,7 @@
   "intro": {
     "name": "Kashul Hindagoda",
     "role": "Software Engineer",
-    "selfIntro": "i'm bla bla bla",
+    "selfIntro": "Electrical and Information Engineering",
     "imageURL": "/intro/myimage.png"
   },
 
@@ -11,27 +11,29 @@
     "imageURL": "/skills/skills.jpg",
     "values": [
       {"name":"Java",
-    "icon":"/skills/java.png"},
-    {"name":"Python",
-    "icon":"/skills/java.png"},
+    "icon":"/skills/java.gif"},
+   
     {"name":"NodeJs",
-    "icon":"/skills/java.png"},
+    "icon":"/skills/nodejs.png"},
+    {"name":"NestJs",
+    "icon":"/skills/nestjs.png"},
     {"name":"sql",
     "icon":"/skills/sql.png"},
     {"name":"Javascript",
-    "icon":"/skills/java.png"},
+    "icon":"/skills/javascript.gif"},
     {"name":"Angular",
     "icon":"/skills/angular.png"},
-    {"name":"Java",
-    "icon":"/skills/java.png"},
+   
     {"name":"Linux",
-    "icon":"/skills/java.png"},
+    "icon":"/skills/linux.gif"},
     {"name":"Nextjs",
-    "icon":"/skills/java.png"},
+    "icon":"/skills/nextjs.png"},
     {"name":"Tailwind",
-    "icon":"/skills/java.png"},
+    "icon":"/skills/tailwind.png"},
     {"name":"React",
-    "icon":"/skills/react.png"}
+    "icon":"/skills/react.png"},
+    {"name":"Python",
+    "icon":"/skills/python.gif"}
      
     ]
   }
