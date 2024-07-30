@@ -5,6 +5,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS","SQL","angular"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
@@ -13,6 +14,7 @@
       "imageURLs": ["/projects/project1.jpg","/projects/project2.png"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex."]
     },
@@ -21,6 +23,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
@@ -29,6 +32,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
@@ -37,6 +41,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
@@ -45,6 +50,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
@@ -53,6 +59,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
@@ -61,6 +68,7 @@
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
+      "link":"",
       "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     }

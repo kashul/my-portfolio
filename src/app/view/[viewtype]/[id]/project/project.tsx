@@ -13,6 +13,7 @@ import Image from "next/image";
 export default function Project({project}:{project: {
     id: string,
     name: string,
+    link:string,
     imageURLs: string[];
     technology: string[];
     date: string;
@@ -86,6 +87,9 @@ export default function Project({project}:{project: {
       </Swiper>
     </div>
     <div className=" ">
+    {project.link}
+    </div>
+    <div className=" ">
     {project?.descriptions.map((des:string, i: any) => (
         <p key={"prodes"+i} className="text-xl text-slate-50">
         
@@ -94,6 +98,7 @@ export default function Project({project}:{project: {
         </p>
       ))}
     </div>
+    
   </div>
 </div></>;
 }
