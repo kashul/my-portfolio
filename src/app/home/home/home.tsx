@@ -22,7 +22,7 @@ export default function Home() {
               {rootdata.intro.selfIntro}
             </div>
             <div className="py-5 ">
-              <button className=" bg-cyan-300 text-2xl px-3  rounded-full self-center ">
+              <button className=" bg-cyan-300 text-2xl px-3  rounded-full self-center cvbutton">
                 Download CV
               </button>
             </div>
