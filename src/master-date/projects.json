@@ -1,19 +1,19 @@
 {
   "projects": [
     { "id":"1",
-      "name": "Project 1 Lorem ipsum dolor sit amet, consectetur   Nunc sit amet nulla auctor",
+      "name": "ClimateSI ERP system Angular | NestJS",
       "imageURLs": ["/projects/project1.jpg"],
-      "technology":["java","NodeJS","SQL","angular"],
-      "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+      "technology":["NestJS","Angular"],
+      "date":"2023-05-24",
+      "shortdescription":"Developing an online tool to manage employees, leaves and projects",
+      "descriptions": ["Developing an online tool to manage employees, leaves and projects","Activities performed: Design the software architecture and database."]
     },
     { "id":"2",
-      "name": "Project 2",
+      "name": "ICAT TraCAD   ",
       "imageURLs": ["/projects/project1.jpg","/projects/project2.png"],
-      "technology":["java","NodeJS"],
+      "technology":["NestJS","Angular"],
       "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex.",
+      "shortdescription":"Developing an online tool to assess the Climate actions in transport sector for UNOPS.  ",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex."]
     },
     { "id":"3",
