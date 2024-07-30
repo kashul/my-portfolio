@@ -25,20 +25,27 @@ export default function Page({
       name: "Loading...",
       imageURLs: [],
       technology: [],
+      link: "",
       date: "0",
       shortdescription: "Loading...",
       descriptions: [],
     };
-
+if(project){
     return (
       <>
       <Project project={project}></Project>
        
       </>
-    );
+    );}else{
+      return (
+        <>
+       
+        </>
+      );
+    }
   } else if (params.viewtype === "activity") {
     const activity = rootdatactivties.activities.find(
-      (activity) => activity.id === params.id
+      (activity:any) => activity.id === params.id
     )|| {
       id: "0",
       name: "Loading...",
@@ -48,11 +55,17 @@ export default function Page({
       shortdescription: "Loading...",
       descriptions: [],
     };
-
+if(activity){
     return (
       <>
         <Activity activity={activity}></Activity>
       </>
-    );
+    );}else{
+      return (
+        <>
+       
+        </>
+      );
+    }
   }
 }

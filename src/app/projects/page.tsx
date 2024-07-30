@@ -14,7 +14,8 @@ export default function Page() {
 
   const router = useRouter()
   return (
-    <>   <div className="container mx-auto h-screen   md:h-screen w-full py-10 ">
+    <>  
+     {rootdataprojects.projects.length>0?<div className="container mx-auto h-screen   md:h-screen w-full py-10 ">
     <div className="flex flex-col   space-y-8 h-full">
       
         <div className="text-6xl text-slate-50 h-[10%]">Projects</div>
@@ -89,8 +90,8 @@ export default function Page() {
        
       </div>
     </div>
-  </div>
-  <div className="container mx-auto h-screen   md:h-screen w-full py-10 ">
+  </div>:<></>}
+  {rootdatactivties.activities.length>0?<div  className="container mx-auto h-screen   md:h-screen w-full py-10 ">
     <div className="flex flex-col   space-y-8 h-full">
       
         <div className="text-6xl text-slate-50 h-[10%]">Activities</div>
@@ -128,7 +129,7 @@ export default function Page() {
            
               className="mySwiper"
             >
-              {rootdatactivties.activities.map((activity, i) => {
+              {rootdatactivties.activities.map((activity:any, i) => {
                   return (
                     
                     <SwiperSlide key={"act" + i} >
@@ -165,6 +166,8 @@ export default function Page() {
        
       </div>
     </div>
-  </div></>
+  </div>:<></>}
+  
+  </>
   );
 }

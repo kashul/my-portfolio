@@ -27,13 +27,14 @@ const [open, setOpen] = useState(true)
     )|| {
       id: "0",
       name: "Loading...",
+      link: "",
       imageURLs: [],
       technology: [],
       date: "0",
       shortdescription: "Loading...",
       descriptions: [],
     };
-
+if(project){
     return (
       <>
        <Dialog className="relative z-10 " open={open} onClose={setOpen}>
@@ -67,10 +68,10 @@ const [open, setOpen] = useState(true)
       
        
       </>
-    );
+    );}else{return <></>}
   } else if (params.viewtype === "activity") {
     const activity = rootdatactivties.activities.find(
-      (activity) => activity.id === params.id
+      (activity:any) => activity.id === params.id
     )|| {
       id: "0",
       name: "Loading...",
@@ -80,7 +81,7 @@ const [open, setOpen] = useState(true)
       shortdescription: "Loading...",
       descriptions: [],
     };
-
+  if(activity){
     return (
       <>
        <Dialog className="relative z-10 " open={open} onClose={setOpen}>
@@ -113,6 +114,6 @@ const [open, setOpen] = useState(true)
    </Dialog>
        
       </>
-    );
+    );}else{return <></>}
   }
 }

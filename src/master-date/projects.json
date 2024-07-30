@@ -1,68 +1,32 @@
 {
   "projects": [
     { "id":"1",
-      "name": "ClimateSI ERP system Angular | NestJS",
+      "name": "ClimateSI ERP system",
       "imageURLs": ["/projects/project1.jpg"],
-      "technology":["NestJS","Angular"],
-      "date":"2023-05-24",
-      "shortdescription":"Developing an online tool to manage employees, leaves and projects",
-      "descriptions": ["Developing an online tool to manage employees, leaves and projects","Activities performed: Design the software architecture and database."]
+      "technology":["java","NodeJS","SQL","angular"],
+      "date":"2024-05-24",
+      "link":"https://erp.climatesi.com/erp",
+      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
+      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     },
     { "id":"2",
       "name": "ICAT TraCAD   ",
       "imageURLs": ["/projects/project1.jpg","/projects/project2.png"],
       "technology":["NestJS","Angular"],
       "date":"2024-05-24",
-      "shortdescription":"Developing an online tool to assess the Climate actions in transport sector for UNOPS.  ",
+      "link":"https://tracad.unops.org",
+      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex.",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex."]
     },
     { "id":"3",
-      "name": "Project 3",
+      "name": "ClimateSI Website",
       "imageURLs": ["/projects/project1.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
-    },
-    { "id":"4",
-      "name": "Project 4",
-      "imageURLs": ["/projects/project1.jpg"],
-      "technology":["java","NodeJS"],
-      "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
-    },
-    { "id":"5",
-      "name": "Project 5",
-      "imageURLs": ["/projects/project1.jpg"],
-      "technology":["java","NodeJS"],
-      "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
-    },
-    { "id":"6",
-      "name": "Project 6",
-      "imageURLs": ["/projects/project1.jpg"],
-      "technology":["java","NodeJS"],
-      "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
-    },
-    { "id":"7",
-      "name": "Project 7",
-      "imageURLs": ["/projects/project1.jpg"],
-      "technology":["java","NodeJS"],
-      "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, convallis ex.",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
-    },
-    { "id":"8",
-      "name": "Project 8",
-      "imageURLs": ["/projects/project1.jpg"],
-      "technology":["java","NodeJS"],
-      "date":"2024-05-24",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.",
+      "link":"https://climatesi.com",
+      "shortdescription":"Official website of Climate Smart Initiatives (Pvt)Ltd ",
       "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
     }
+    
   ]
 }
