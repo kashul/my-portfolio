@@ -23,6 +23,7 @@ export default function Page({
     )|| {
       id: "0",
       name: "Loading...",
+      link:"",
       imageURLs: [],
       technology: [],
       date: "0",
@@ -42,6 +43,7 @@ export default function Page({
     )|| {
       id: "0",
       name: "Loading...",
+      
       imageURLs: [],
       technology: [],
       date: "0",

@@ -27,6 +27,7 @@ const [open, setOpen] = useState(true)
     )|| {
       id: "0",
       name: "Loading...",
+      link: "",
       imageURLs: [],
       technology: [],
       date: "0",

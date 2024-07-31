@@ -1,8 +1,10 @@
-
+import "@/app/css/loading.css"
 
 
 
 export default function Loading() {
     // Or a custom loading skeleton component
-    return <p>Loading...</p>
+    return <>  <div id="loading" className="h-lvh">
+    <div className="spinner"></div>
+</div></>
   }

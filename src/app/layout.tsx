@@ -7,6 +7,8 @@ import { ToTop } from "@/components/to-top";
 import rootdata from "../master-date/home-data.json";
 import Image from "next/image";
 import Footer from "@/components/footer";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 
 
@@ -42,9 +44,9 @@ export default function RootLayout({
 
       
         {/* loading component cant be added to any the layout component  */}
-        {/* <Suspense fallback={<Loading/>}>{children}</Suspense>*/}
+        <Suspense fallback={<Loading/>}>{children}</Suspense>
 
-      {children}
+      {/* {children} */}
 
 <Footer />
         <ToTop />
