@@ -114,7 +114,7 @@ export default function ProjectRoute() {
                           </div>
                           <div className=" px-2 group relative  w-full  ">
                          
-                            <p className="mt-2 line-clamp-5 text-sm leading-6 text-gray-600">
+                            <p className="mt-2 line-clamp-5 text-lg leading-6 text-gray-600">
                               {project.shortdescription}
                             </p>
                           </div>

@@ -75,7 +75,7 @@ export default function Page() {
           <div className="w-full ">
             <div className="   grid grid-cols-1  md:grid-cols-3 gap-4 ">
               
-              {rootdata.certificates.map((a, i) => {
+              {rootdata.certificates.map((a:any, i) => {
                 return (
                   <article className="flex  flex-col items-start mx-3  " key={"cert" + i}>
                          <div className="flex flex-col items-center justify-center  w-full">
