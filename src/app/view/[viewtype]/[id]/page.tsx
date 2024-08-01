@@ -26,7 +26,6 @@ export default function Page({
       link:"",
       imageURLs: [],
       technology: [],
-      link: "",
       date: "0",
       shortdescription: "Loading...",
       descriptions: [],

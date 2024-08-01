@@ -2,30 +2,30 @@
   "projects": [
     { "id":"1",
       "name": "ClimateSI ERP system",
-      "imageURLs": ["/projects/project1.jpg"],
+      "imageURLs": ["/projects/erp.jpg"],
       "technology":["java","NodeJS","SQL","angular"],
       "date":"2024-05-24",
       "link":"https://erp.climatesi.com/erp",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+      "shortdescription":"Developing an online tool to manage employees, leaves and projects.",
+      "descriptions": ["Developing an online tool to manage employees, leaves and projects."]
     },
     { "id":"2",
-      "name": "ICAT TraCAD   ",
-      "imageURLs": ["/projects/project1.jpg","/projects/project2.png"],
+      "name": "ICAT TraCAD",
+      "imageURLs": ["/projects/131.jpg","/projects/132.jpg","/projects/133.jpg"],
       "technology":["NestJS","Angular"],
       "date":"2024-05-24",
       "link":"https://tracad.unops.org",
-      "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex.",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,convallis ex."]
+      "shortdescription":"Developing an online tool to assess the Climate actions in transport sector for UNOPS.",
+      "descriptions": ["Developing an online tool to assess the Climate actions in transport sector for UNOPS."]
     },
     { "id":"3",
       "name": "ClimateSI Website",
-      "imageURLs": ["/projects/project1.jpg"],
+      "imageURLs": ["/projects/climatewebsite1.jpg","/projects/climatewebsite2.jpg"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
       "link":"https://climatesi.com",
       "shortdescription":"Official website of Climate Smart Initiatives (Pvt)Ltd ",
-      "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+      "descriptions": ["Official website of Climate Smart Initiatives (Pvt)Ltd "]
     }
     
   ]
