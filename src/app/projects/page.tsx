@@ -66,7 +66,7 @@ export default function Page() {
                         </div>
                         <div className=" relative w-full flex flex-col  h-[20%] ">
                         <div className=" px-2 group relative  w-full  ">
-                        <h3 className="mt-1 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                        <h3 className="mt-1 text-lg font-semibold leading-6 text-slate-100 group-hover:text-gray-600 line-clamp-2">
                               
                                
                                 {project.name}
@@ -142,7 +142,7 @@ export default function Page() {
                         </div>
                         <div className=" relative w-full flex flex-col  h-[20%] ">
                         <div className=" px-2 group relative  w-full  ">
-                        <h3 className="mt-1 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                        <h3 className="mt-1 text-lg font-semibold leading-6 text-slate-100 group-hover:text-gray-600 line-clamp-2">
                               
                                
                                 {activity.name}
