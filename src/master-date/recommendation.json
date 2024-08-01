@@ -1,43 +1,6 @@
 {
     "recommendations": [
-      {
-        "name": "Mr james1",
-        "role":"archtech",
-        "imageURLs": "/projects/project1.jpg",
-        "company":"Company one ",
-        
-        "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,"
-  
-      },
-      {
-        "name": "Mr james2",
-        "role":"archtech",
-        "imageURLs": "/projects/project1.jpg",
-        "company":"Company one ",
-        
-        "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,"
-  
-      },
-      
-      {
-        "name": "Mr james3",
-        "role":"archtech",
-        "imageURLs": "/projects/project1.jpg",
-        "company":"Company one ",
-        
-        "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,"
-
-      },
-      {
-        "name": "Mr james4",
-        "role":"archtech",
-        "imageURLs": "/projects/project1.jpg",
-        "company":"Company one ",
-        
-        "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,"
-  
-      }
-      
+   
       
       
     ]

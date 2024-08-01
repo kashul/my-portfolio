@@ -27,57 +27,28 @@
         {
          "companyname":"Climate Smart Initiatives (Pvt) Ltd",
          "role":"software engineer",
-         "duration":"Dec 2022 - Dec 2023",
-         "time":"2 yr 3 mon",
-          "tech":"java | python |c++"
+         "duration":"Feb 2022 - presen",
+         "time":"2 yr 5 mon",
+          "tech":"JavaScript | Angular |TypeScript | NestJS | Springboot "
         },
         {
-            "companyname":"Climate Smart Initiatives (Pvt) Ltd",
-            "role":"software engineer",
-            "duration":"Dec 2022 - Dec 2023",
-            "time":"2 yr 3 mon",
-            "tech":"java | python |c++"
+            "companyname":"VizuaMatix (PVT) Ltd ",
+            "role":"Trainee Associative Software ",
+            "duration":"March 2020 - May 2020",
+            "time":"3 mon",
+            "tech":"JavaScript | React | Clojure"
            },
            {
-            "companyname":"Climate Smart Initiatives (Pvt) Ltd",
-            "role":"software engineer",
-            "duration":"Dec 2022 - Dec 2023",
-            "time":"2 yr 3 mon",
-             "tech":"java | python |c++"
-           },
-           {
-            "companyname":"Climate Smart Initiatives (Pvt) Ltd",
-            "role":"software engineer",
-            "duration":"Dec 2022 - Dec 2023",
-            "time":"2 yr 3 mon",
-             "tech":"java | python |c++"
+            "companyname":"IJSE",
+            "role":"Trainee Associative Software Engineer",
+            "duration":"Jan 2019 – April 2019 ",
+            "time":"3 mon",
+             "tech":"JavaScript | JAVAFX | Java | Spring"
            }
+          
     ],
     "certificates":[
-        {
-         "name":"Climate Smart Initiatives (Pvt) Ltd",
-         "image":"/certificates/project1.jpg",
-         "link":"https://www.linkedin.com/in/kashul-hindagoda/"
-          
-        },
-        {
-            "name":"Climate Smart Initiatives (Pvt) Ltd",
-            "image":"/certificates/project1.jpg",
-            "link":""
-             
-           },
-           {
-            "name":"Climate Smart Initiatives (Pvt) Ltd",
-            "image":"/certificates/project1.jpg",
-            "link":""
-             
-           },
-           {
-            "name":"Climate Smart Initiatives (Pvt) Ltd",
-            "image":"/certificates/project1.jpg",
-            "link":""
-             
-           }
+     
     ]
     
 }
