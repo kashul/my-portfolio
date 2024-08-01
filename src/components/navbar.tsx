@@ -25,6 +25,7 @@ function classNames(...classes: string[]) {
 }
 
 export default function NavBar() {
+  const url= process.env.NEXT_PUBLIC_URL;
 
 
   const [isScrolling, setIsScrolling] = React.useState(false);
