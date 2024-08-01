@@ -29,15 +29,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto   md:h-screen">
+      <div className="container mx-auto   md:mb-10">
         <div className="flex  flex-row h-full">
-          <div className="hidden md:block md:basis-1/2  w-full h-full p-10">
+          {/* <div className="hidden md:block md:basis-1/2  w-full h-full p-10">
             <img
               src={rootdata.skills.imageURL}
               className=" h-full w-full   rounded-[50px] "
             />
-          </div>
-          <div className="md:basis-1/2 flex flex-col self-center m-5">
+          </div> */}
+          <div className="md:basis-2/3 flex flex-col self-center m-5">
             <div className="text-6xl text-slate-50 my-10">Skills</div>
             <div className="basis-1/2 flex  flex-wrap gap-10 self-center content-center">
               {rootdata.skills.values.map((skill, i) => (
