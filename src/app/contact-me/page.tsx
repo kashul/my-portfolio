@@ -15,7 +15,7 @@ export default function Page() {
     <div className="container mx-auto   md:h-screen w-full">
       <div className="flex flex-col py-4  md:flex-row h-5/6">
         <div className="basis-1/2 self-center">
-        <p className="font-serif italic text-center text-zinc-100 font-light text-7xl md:text-9xl">Let's work Together</p>
+        <p className="font-serif italic text-center text-zinc-100 font-light text-7xl md:text-9xl">Let&#39;s work Together</p>
         </div>
         <div className="basis-1/2   self-center contact-background rounded-lg mt-10  px-14 pb-5 md:p-5 md:mx-10">
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
