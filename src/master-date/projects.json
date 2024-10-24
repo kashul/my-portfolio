@@ -2,7 +2,7 @@
   "projects": [
     { "id":"1",
       "name": "ClimateSI ERP system",
-      "imageURLs": ["/projects/erp.jpg"],
+      "imageURLs": ["/projects/erp.JPG"],
       "technology":["java","NodeJS","SQL","angular"],
       "date":"2024-05-24",
       "link":"https://erp.climatesi.com/auth/login",
@@ -20,7 +20,7 @@
     },
     { "id":"3",
       "name": "ClimateSI Website",
-      "imageURLs": ["/projects/climatewebsite1.jpg","/projects/climatewebsite2.jpg"],
+      "imageURLs": ["/projects/climatewebsite1.JPG","/projects/climatewebsite2.JPG"],
       "technology":["java","NodeJS"],
       "date":"2024-05-24",
       "link":"https://climatesi.com",
