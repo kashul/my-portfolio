@@ -47,7 +47,7 @@
 }
 
 .box {
-  background: linear-gradient(to right, rgb(148, 147, 144), rgb(92, 87, 81));
+  background: linear-gradient(to right, rgb(167, 185, 202), rgb(115, 159, 216));
   color: white;
  
   /* text-align: center; */
@@ -87,4 +87,6 @@
 
 .cvbutton {
   box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #364a57;
+  color: #5cb7f3;
 }

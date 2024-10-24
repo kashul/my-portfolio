@@ -13,7 +13,7 @@ export default function Page() {
               {rootdata.educations.introduction}
             </div>
           </div>
-          <div className="basis-1/2 w-full  self-center ">
+          <div className="basis-1/2 w-full  self-center md:px-10">
             <div className="   flex flex-col  space-y-4">
               <div className="text-6xl text-slate-50 ">
                 {rootdata.educations.range}

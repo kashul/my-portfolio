@@ -22,14 +22,14 @@ export default function Project({project}:{project: {
   }}) {
     const [swiperInstance, setSwiperInstance] = useState<SwiperClass|null>(null);
 
-  return <> <div className="container mx-auto  ">
+  return <> <div className="container mx-auto  md:px-10">
   <div className="flex flex-col   space-y-4 ">
     <div className="text-6xl text-slate-50 ">{project?.name}</div>
     <div className="text-xl text-slate-50 ">{project?.date}</div>
     <div className=" flex  "> {project?.technology.map((skill:string, i: number) => (
         <div
           key={"protech" + i}
-          className=" bg-cyan-300 text-2xl px-3 mr-3 rounded-full  "
+          className=" bg-slate-500 text-2xl px-3 mr-3 rounded-full  "
         >
         
           <div className="text-slate-100  px-2" >{skill}</div>
@@ -87,7 +87,8 @@ export default function Project({project}:{project: {
       </Swiper>
     </div>
     <div className=" ">
-    {project.link}
+    <a href={project.link} className="no-underline hover:underline text-sky-400">{project.link}</a>
+    
     </div>
     <div className=" ">
     {project?.descriptions.map((des:string, i: any) => (
