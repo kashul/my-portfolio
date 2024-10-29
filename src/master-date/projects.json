@@ -5,7 +5,7 @@
       "imageURLs": ["/projects/erp.JPG"],
       "technology":["java","NodeJS","SQL","angular"],
       "date":"2024-05-24",
-      "link":"https://erp.climatesi.com/erp",
+      "link":"https://erp.climatesi.com/auth/login",
       "shortdescription":"Developing an online tool to manage employees, leaves and projects.",
       "descriptions": ["Developing an online tool to manage employees, leaves and projects."]
     },

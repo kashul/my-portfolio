@@ -78,7 +78,7 @@ export default function NavBar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 
-                <Image className='h-8 w-auto' src={'/mark.svg'} alt={'Your Company'} width={256} height={256} />
+                <Image className='h-8 w-auto rounded-full' src={'/navbar/myimage.png'} alt={'Your Company'} width={1000} height={1000} />
 
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

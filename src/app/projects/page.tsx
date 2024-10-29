@@ -60,7 +60,7 @@ export default function Page() {
                       <article className="flex  flex-col items-start mx-3  h-full" onClick={() => {
                    router.push(`/view/project/${project.id}`)
                  }}>
-                        <div className="flex flex-col items-center justify-center h-[80%] w-full">
+                        <div className="flex flex-col items-center justify-center h-[80%] w-full cursor-pointer ">
                         <Image src={project.imageURLs[0]} alt={""} width={1000} height={1000}/>
                          
                         </div>

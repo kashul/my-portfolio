@@ -1,13 +1,32 @@
 'use client';
 
 import "@/app/css/contactme.css";
+import React from "react";
 
 
 export default function Page() {
-
-  const handleSubmit = (event: { preventDefault: () => void; }) => {
+  const [result, setResult] = React.useState("");
+  const handleSubmit = async (event: any) => {
     event.preventDefault();
-    // Add the function logic you want to run on submit here
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "1cdba0e3-14c4-491c-af74-ba6e9f1e2b1b");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
     console.log('Form submitted with value:');
   };
   

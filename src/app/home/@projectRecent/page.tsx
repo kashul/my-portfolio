@@ -10,6 +10,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay } from "swiper/modules";
+import { useRouter } from "next/navigation";
+ 
 
 export default function ProjectRoute() {
   const [projects, setRootJsonData] = useState(projectsdata);
@@ -25,7 +27,7 @@ export default function ProjectRoute() {
   projects.projects.forEach((project) => {
     products.push(project);
   });
-
+  const router = useRouter()
   return (
     
       products.length>0?<div className=" container mx-auto  h-screen ">
@@ -68,6 +70,7 @@ export default function ProjectRoute() {
               {products.map(
                 (
                   project: {
+                    id: string;
                     name: string;
                     imageURLs: string[];
                     technology: string[];
@@ -80,20 +83,22 @@ export default function ProjectRoute() {
                   return (
                     <SwiperSlide key={"project" + index}>
                       {" "}
-                      <article className="flex  flex-col items-start mx-3  h-full">
+                      <article className="flex  flex-col items-start mx-3  h-full cursor-pointer" onClick={() => {
+                   router.push(`/view/project/${project.id}`)
+                 }}>
                         <div className="flex flex-col items-center justify-center h-[30%] w-full">
                           <img
                             className=" h-full w-full rounded-t-[24px]"
                             src={project.imageURLs[0]}
                           />{" "}
                         </div>
-                        <div className=" relative w-full flex flex-col project-background h-[60%] rounded-b-[24px]">
+                        <div className=" relative w-full flex flex-col project-background min-h-[45%] max-h-[60%] rounded-b-[24px]">
                         <div className=" px-2 group relative  w-full  ">
                         <h3 className="mt-1 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                              <a href="" className="line-clamp-2">
+                              <div className="line-clamp-2">
                                
                                 {project.name}
-                              </a>
+                              </div>
                             </h3>
                             <time
                               dateTime={project.date}

@@ -11,7 +11,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay } from "swiper/modules";
 
-
+import { useRouter } from "next/navigation";
+ 
 
 
 export default function ActivityRoute() {
@@ -31,7 +32,7 @@ export default function ActivityRoute() {
   //   activities.push(activity);
   // });
 
-
+  const router = useRouter()
 
   return  activitiesdata.activities.length>0?<div className=" container mx-auto  h-screen ">
   <div className="flex flex-col h-full ">
@@ -72,6 +73,7 @@ export default function ActivityRoute() {
       >
         {activitiesdata.activities.map(
           (  avtivity: {
+              id: string;
               name: string;
               imageURLs: string[];
               date: string;
@@ -83,20 +85,22 @@ export default function ActivityRoute() {
             return (
               <SwiperSlide key={"activity" + index}>
                 {" "}
-                <article className="flex max-w-xl flex-col items-start mx-3  h-full">
+                <article className="flex max-w-xl flex-col items-start mx-3  h-full cursor-pointer" onClick={() => {
+                   router.push(`/view/activity/${avtivity.id}`)
+                 }}>
                   <div className="flex flex-col items-center justify-center h-[30%] w-full">
                     <img
                       className=" h-full w-full rounded-t-[24px]"
                       src={avtivity.imageURLs[0]}
                     />{" "}
                   </div>
-                  <div className=" relative w-full flex flex-col project-background h-[60%] rounded-b-[24px]">
+                  <div className=" relative w-full flex flex-col project-background min-h-[45%] max-h-[60%] rounded-b-[24px]">
                   <div className=" px-2 group relative  w-full  ">
                   <h3 className="mt-1 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                        <a href="" className="line-clamp-2">
+                        <div className="line-clamp-2">
                          
                           {avtivity.name}
-                        </a>
+                        </div>
                       </h3>
                       <time
                         dateTime={avtivity.date}
