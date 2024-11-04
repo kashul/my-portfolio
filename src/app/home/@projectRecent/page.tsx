@@ -1,6 +1,6 @@
 "use client";
 
-import projectsdata from "../../../master-date/projects.json";
+import projectsdata from "../../../master-data/projects.json";
 import { useState, useEffect } from "react";
 import "../../css/home.css";
 

@@ -1,0 +1,20 @@
+{
+    "activities": [
+      {
+        "id":"1",
+        "name": "Activitie one",
+        "imageURLs": ["/activities/activityone.jpg","/activities/activitytwo.jpg"],
+        "date":"2024-05-24",
+        "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
+        "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+      },
+      {
+        "id":"2",
+        "name": "Activitie two",
+        "imageURLs": ["/activities/activityone.jpg","/activities/activitytwo.jpg"],
+        "date":"2024-05-24",
+        "shortdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor,",
+        "descriptions": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla auctor, vestibulum magna sed, convallis ex."]
+      }
+    ]
+  }

@@ -1,6 +1,6 @@
 "use client";
-import rootdataprojects from "../../master-date/projects.json";
-import rootdatactivties from "../../master-date/activities.json";
+import rootdataprojects from "../../master-data/projects.json";
+import rootdatactivties from "../../master-data/activities.json";
 import "../../app/css/project.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

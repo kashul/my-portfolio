@@ -1,6 +1,6 @@
 "use client";
-import rootdataprojects from "@/master-date/projects.json";
-import rootdatactivties from "@/master-date/activities.json";
+import rootdataprojects from "@/master-data/projects.json";
+import rootdatactivties from "@/master-data/activities.json";
 import Project from "@/app/view/[viewtype]/[id]/project/project";
 import Activity from "@/app/view/[viewtype]/[id]/activity/activity";
 import "@/app/css/project.css";

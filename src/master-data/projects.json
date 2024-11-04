@@ -1,0 +1,24 @@
+{
+  "projects": [
+    { "id":"1",
+      "name": "Project one",
+      "imageURLs": ["/projects/project1.jpg"],
+      "technology":["java","NodeJS","SQL","angular"],
+      "date":"2024-05-24",
+      "link":"project link",
+      "shortdescription":"project short description.",
+      "descriptions": ["project  description paragraph one.","project  description paragraph two."]
+    },
+    { "id":"2",
+      "name": "Project Two",
+      "imageURLs": ["/projects/project1.jpg","/projects/project2.jpg"],
+      "technology":["NestJS","Angular"],
+      "date":"2024-05-24",
+      "link":"project link",
+      "shortdescription":"project short description.",
+      "descriptions": ["project  description paragraph one."]
+    }
+  
+    
+  ]
+}

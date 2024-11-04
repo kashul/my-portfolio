@@ -27,7 +27,7 @@ function classNames(...classes: string[]) {
 export default function NavBar() {
   
   // const url= process.env.NEXT_PUBLIC_URL;
-  const url= "https://my-portfolio-z3penmkrqq-uc.a.run.app";
+  const url= "http://localhost:3000/";
 
   const [isScrolling, setIsScrolling] = React.useState(false);
 

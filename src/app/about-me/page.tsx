@@ -1,4 +1,4 @@
-import rootdata from "../../master-date/about-me.json";
+import rootdata from "../../master-data/about-me.json";
 import "../../app/css/aboutme.css";
 import Image from "next/image";
 export default function Page() {

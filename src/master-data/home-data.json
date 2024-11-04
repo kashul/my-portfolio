@@ -1,11 +1,11 @@
 {
   "backgroundImageURL": "/rootbackground.gif",
-  "pdf_url": "https://drive.google.com/file/d/1LfofHXtb7wezoAlQiRLHFeAeKQ5v22YN/view",
+  "pdf_url": "CV url",
   "intro": {
-    "name": "Kashul Hindagoda",
-    "role": "Software Engineer",
-    "selfIntro": "Electrical and Information Engineering",
-    "imageURL": "/intro/myimage.png"
+    "name": "Your name",
+    "role": "Potition name",
+    "selfIntro": "short info. ex-Electrical and Information Engineering",
+    "imageURL": "/intro/myimage.jpg"
   },
 
   "skills": {

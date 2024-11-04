@@ -3,21 +3,21 @@
 
     {
       "name": "linkedin",
-      "link": "https://www.linkedin.com/in/kashul-hindagoda/",
+      "link": "linkedin url",
       "iconUrl": "/social/linkedin.png"
     },
     {
         "name": "git",
-        "link": "https://github.com/kashul",
+        "link": "git URl",
         "iconUrl": "/social/git.png"
       },
       {
         "name": "medium",
-        "link": "https://medium.com/@kasulkenuka",
+        "link": "medium url",
         "iconUrl": "/social/medium.png"
       }
     
   ],
-  "email":"kasulkenuka@gmail.com",
-  "mobile":"+94 71 5895 862"
+  "email":"Your email",
+  "mobile":"phone number"
 }

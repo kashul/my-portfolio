@@ -1,0 +1,63 @@
+{
+    "educations":{
+        "introduction":"Hi, I'm [Your Name], a software engineer specializing in [your primary skill area, e.g., backend development, mobile applications, or machine learning]. With [X] years of experience in the industry, I have a strong foundation in [programming languages or tools you're proficient in, like Python, Java, or AWS]. My focus is on creating efficient, scalable, and user-friendly solutions that help businesses reach their goals. I'm passionate about [mention a particular interest in tech, like optimizing algorithms, building secure systems, or designing intuitive user interfaces].",
+       "range":"2014-2022",
+        "roadmap":[
+            {
+                "achivement":"B.Sc. (Hons) in Electrical and Information Engineering",
+                "date":"Dec 2022",
+                "score":"OGPA:3.00",
+                "field":"Faculty name",
+                "institute":"University/Institute name"
+
+
+            },
+            {
+                "achivement":"Higher School Certificate (HSC)",
+                "date":"Aug 2022",
+                "score":"Math:B,Chem:B,Phy:A",
+                "field":"Science",
+                "institute":"School name"
+
+
+            }
+        ]
+    },
+    "experiance":[
+        {
+         "companyname":"Company name two",
+         "role":"Potition name",
+         "duration":"Feb 2022 - present",
+         "time":"2 yr 5 mon",
+          "tech":"Ex -JavaScript | React | Clojure"
+        },
+        {
+            "companyname":"Company name one",
+            "role":"Potition name",
+            "duration":"March 2020 - May 2020",
+            "time":"3 mon",
+            "tech":"Ex -JavaScript | React | Clojure"
+           }
+        
+          
+    ],
+    "certificates":[
+     {
+        "name":"Certificate name one",
+        "image":"/certificates/certificatesone.jpg",
+        "link":"certificate link"
+
+
+
+     },
+     {
+        "name":"Certificate name two",
+        "image":"/certificates/certificatesone.jpg",
+        "link":"certificate link"
+
+
+
+     }
+    ]
+    
+}
