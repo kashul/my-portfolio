@@ -1,5 +1,5 @@
 import "../../css/home.css";
-import rootdata from "../../../master-date/home-data.json";
+import rootdata from "../../../master-data/home-data.json";
 import Image from "next/image";
 
 export default function Home() {

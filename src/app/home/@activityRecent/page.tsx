@@ -1,6 +1,6 @@
 
 "use client";
-import activitiesdata from "../../../master-date/activities.json";
+import activitiesdata from "../../../master-data/activities.json";
 
 import "../../css/home.css";
 

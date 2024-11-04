@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ToTop } from "@/components/to-top";
 
-import rootdata from "../master-date/home-data.json";
+import rootdata from "../master-data/home-data.json";
 import Image from "next/image";
 import Footer from "@/components/footer";
 import { Suspense } from "react";

@@ -4,7 +4,7 @@ import Loading from "../loading";
 import { ErrorBoundary } from "@/components/errorboundry";
 
 
-import rootdata from "../../master-date/home-data.json";
+import rootdata from "../../master-data/home-data.json";
 
 import { useRouter } from 'next/navigation'
 

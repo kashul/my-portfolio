@@ -1,5 +1,5 @@
 import "@/css/footer.css"
-import socialdata from "@/master-date/social.json"
+import socialdata from "@/master-data/social.json"
 
 const navigation = [
     { name: 'Home', href: 'home',},
