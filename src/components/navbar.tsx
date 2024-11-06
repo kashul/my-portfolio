@@ -2,15 +2,15 @@
 "use client";
 
 
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure,  } from '@headlessui/react'
+import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/outline'
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
 import React from 'react';
 import'../app/css/navbar.css'; 
 import Link from 'next/link';
 
-const url="http://localhost:3000"
+
 const navigation = [
   { name: 'Home', href: 'home',},
   { name: 'About Me', href: 'about-me' },
@@ -26,8 +26,8 @@ function classNames(...classes: string[]) {
 
 export default function NavBar() {
   
-  // const url= process.env.NEXT_PUBLIC_URL;
-  const url= "http://localhost:3000/";
+  const url= process.env.NEXT_PUBLIC_URL;
+  
 
   const [isScrolling, setIsScrolling] = React.useState(false);
 
