@@ -50,7 +50,7 @@ export default function NavBar() {
    
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  // console.log("scrolling",isScrolling);
+
 
 
 

@@ -68,7 +68,7 @@ export default function Project({project}:{project: {
       <Swiper
    
         
-        // onSwiper={(swiper) => console.log('swiper')}
+     
         onClick={(swiper,event) =>{setSwiperInstance(swiper)}}
         spaceBetween={10}
         centeredSlides={true}

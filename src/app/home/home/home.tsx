@@ -13,7 +13,7 @@ export default function Home() {
               height={1000}
               src={rootdata.intro.imageURL}
               alt={""}
-              unoptimized
+            
             />
           </div>
           <div className="basis-1/2 self-center">

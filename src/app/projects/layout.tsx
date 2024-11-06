@@ -32,7 +32,7 @@ export default function ProjectLayout({
     // Simulating data fetch
     setRootJsonData(rootdata);
   }, []);
-  console.log("rootJsonData", rootJsonData);
+
 
   return (
     <ErrorBoundary

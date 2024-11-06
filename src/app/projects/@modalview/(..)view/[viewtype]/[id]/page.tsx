@@ -19,7 +19,7 @@ export default function Page({
   params: { viewtype: string; id: string };
 }) {
   const router = useRouter()
-console.log("working")
+
 const [open, setOpen] = useState(true)
   if (params.viewtype === "project") {
     const project = rootdataprojects.projects.find(
