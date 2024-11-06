@@ -4,16 +4,21 @@ import "@/app/css/contactme.css";
 import React from "react";
 
 
+
+
 export default function Page() {
+  const access_key= process.env.NEXT_PUBLIC_EMAIL_ACCESS_KEY||"";
+  const service_url= process.env.NEXT_PUBLIC_EMAIL_SERVICE_URL||"";
+  
   const [result, setResult] = React.useState("");
   const handleSubmit = async (event: any) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "1cdba0e3-14c4-491c-af74-ba6e9f1e2b1b");
+    formData.append("access_key", access_key);
 
-    const response = await fetch("https://api.web3forms.com/submit", {
+    const response = await fetch(service_url, {
       method: "POST",
       body: formData
     });
