@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/public/
+/public
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -36,5 +36,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#master data
-/src/master-data/
+# master data
+/src/master-data
