@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <div className="container mx-auto   py-20 w-full">
+      <div className="container mx-auto px-2  py-20 w-full">
         <div className="flex flex-col md:flex-row h-full space-y-4">
           <div className="basis-1/2 self-center">
             <div className="text-6xl text-slate-50">Educations</div>
@@ -36,7 +36,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      {rootdata.experiance.length>0?<div className="container mx-auto py-10  my-10 w-full">
+      {rootdata.experiance.length>0?<div className="container mx-auto py-10  my-10 w-full px-2">
         <div className="flex flex-col   space-y-8">
           
             <div className="text-6xl text-slate-50">Expireance</div>
