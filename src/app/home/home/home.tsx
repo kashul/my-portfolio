@@ -1,5 +1,5 @@
 import "../../css/home.css";
-import rootdata from "../../../master-date/home-data.json";
+import rootdata from "../../../master-data/home-data.json";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
               height={(1560 / 1200) * 600}
               src={rootdata.intro.imageURL}
               alt={""}
-              unoptimized
+              
             />
           </div>
           <div className="basis-1/2 self-center">

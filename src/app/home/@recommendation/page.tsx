@@ -1,5 +1,5 @@
 "use client";
-import recommendationdata from "../../../master-date/recommendation.json";
+import recommendationdata from "../../../master-data/recommendation.json";
 
 import "../../css/home.css";
 

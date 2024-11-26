@@ -1,6 +1,6 @@
 
 "use client";
-import activitiesdata from "../../../master-date/activities.json";
+import activitiesdata from "../../../master-data/activities.json";
 
 import "../../css/home.css";
 
@@ -61,14 +61,14 @@ export default function ActivityRoute() {
             spaceBetween: 30,
           },
         }}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
-        // modules={[
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        modules={[
 
-        //   Autoplay
-        // ]}
+          Autoplay
+        ]}
         className="mySwiper"
       >
         {activitiesdata.activities.map(
@@ -86,7 +86,7 @@ export default function ActivityRoute() {
               <SwiperSlide key={"activity" + index}>
                 {" "}
                 <article className="flex max-w-xl flex-col items-start mx-3  h-full cursor-pointer" onClick={() => {
-                   router.push(`/view/activity/${avtivity.id}`)
+                   router.push(`/view/activity/${avtivity.id+"#body"}`,{scroll:true})
                  }}>
                   <div className="flex flex-col items-center justify-center h-[30%] w-full">
                     <img

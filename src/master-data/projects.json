@@ -21,7 +21,7 @@
     { "id":"3",
       "name": "ClimateSI Website",
       "imageURLs": ["/projects/climatewebsite1.JPG","/projects/climatewebsite2.JPG"],
-      "technology":["java","NodeJS"],
+      "technology":["Angular","NodeJS"],
       "date":"2024-05-24",
       "link":"https://climatesi.com",
       "shortdescription":"Official website of Climate Smart Initiatives (Pvt)Ltd ",

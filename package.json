@@ -11,9 +11,10 @@
   "dependencies": {
     "@headlessui/react": "^2.1.8",
     "@heroicons/react": "^2.1.5",
-    "next": "^14.2.1",
+    "next": "^14.2.17",
     "react": "^18",
     "react-dom": "^18",
+    "sharp": "^0.33.5",
     "swiper": "^11.1.4"
   },
   "devDependencies": {
