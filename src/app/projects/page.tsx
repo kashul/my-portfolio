@@ -58,7 +58,9 @@ export default function Page() {
                     
                     <SwiperSlide key={"pro" + i} >
                       <article className="flex  flex-col items-start mx-3  h-full" onClick={() => {
-                   router.push(`/view/project/${project.id}`)
+                   router.push(`/view/project/${project.id+"#project"}`,{scroll:true});
+                  
+                 
                  }}>
                         <div className="flex flex-col items-center justify-center h-[80%] w-full cursor-pointer ">
                         <Image src={project.imageURLs[0]} alt={""} width={1000} height={1000}/>
@@ -134,7 +136,8 @@ export default function Page() {
                     
                     <SwiperSlide key={"act" + i} >
                       <article className="flex  flex-col items-start mx-3  h-full" onClick={() => {
-                   router.push(`/view/activity/${activity.id}`)
+                   router.push(`/view/activity/${activity.id}`);
+                   
                  }}>
                         <div className="flex flex-col items-center justify-center h-[80%] w-full">
                         <Image src={activity.imageURLs[0]} alt={""} width={1000} height={1000}/>

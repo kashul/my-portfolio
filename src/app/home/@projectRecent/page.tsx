@@ -57,14 +57,14 @@ export default function ProjectRoute() {
                   spaceBetween: 30,
                 },
               }}
-              // autoplay={{
-              //   delay: 3000,
-              //   disableOnInteraction: false,
-              // }}
-              // modules={[
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              modules={[
 
-              //   Autoplay
-              // ]}
+                Autoplay
+              ]}
               className="mySwiper"
             >
               {products.map(
@@ -84,7 +84,7 @@ export default function ProjectRoute() {
                     <SwiperSlide key={"project" + index}>
                       {" "}
                       <article className="flex  flex-col items-start mx-3  h-full cursor-pointer" onClick={() => {
-                   router.push(`/view/project/${project.id}`)
+                   router.push(`/view/project/${project.id+"#body"}`,{scroll:true})
                  }}>
                         <div className="flex flex-col items-center justify-center h-[30%] w-full">
                           <img
