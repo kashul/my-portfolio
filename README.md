@@ -169,4 +169,3 @@ Project Link: [my-portfolio][project-url]
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kashul-hindagoda/
 [project-url]: https://github.com/kashul/my-portfolio
-[product-screenshot]: images/screenshot.png
