@@ -74,7 +74,7 @@ Follow below instructions for setup project locally and run.
 
 ### Prerequisites
 
-Download and install Node.js[Node.js](https://nodejs.org/en/)
+Download and install Node.js [Node.js](https://nodejs.org/en/)
 
 
 ### Installation
