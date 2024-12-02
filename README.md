@@ -144,7 +144,7 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 
 Kashul - [Kashul Hindagoda][linkedin-url] - kasulkenuak@gmail.com
 
-Project Link: [nodejs-simple-docker-compose-application][project-url]
+Project Link: [my-portfolio][project-url]
 
 
 
@@ -156,17 +156,17 @@ Project Link: [nodejs-simple-docker-compose-application][project-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
-[contributors-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
-[forks-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/network/members
-[stars-shield]: https://img.shields.io/github/stars/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
-[stars-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
-[issues-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/issues
-[license-shield]: https://img.shields.io/github/license/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
-[license-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kashul/my-portfolio?style=for-the-badge
+[contributors-url]: https://github.com/kashul/my-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kashul/my-portfolio?style=for-the-badge
+[forks-url]: https://github.com/kashul/my-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/kashul/my-portfolio?style=for-the-badge
+[stars-url]: https://github.com/kashul/my-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kashul/my-portfolio?style=for-the-badge
+[issues-url]: https://github.com/kashul/my-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/kashul/my-portfolio?style=for-the-badge
+[license-url]: https://github.com/kashul/my-portfolio/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kashul-hindagoda/
-[project-url]: https://github.com/kashul/nodejs-simple-docker-compose-application
+[project-url]: https://github.com/kashul/my-portfolio
 [product-screenshot]: images/screenshot.png
