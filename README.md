@@ -55,8 +55,8 @@ Simple portfolio website that easily customized with your details. All u need is
 
 
 <p align="center">
-  <a href="public/portfolio.jpg.png">
-    <img src="public/portfolio.jpg.png" alt="image" width="100" height="100">
+  <a href="public/portfolio.jpg">
+    <img src="public/portfolio.jpg" alt="image" width="100" height="100">
   </a>
 
 </p>
