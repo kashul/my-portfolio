@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple portfolio website that easily customized with your details. All u need is to edit the file `data.json` and add your details.
+Simple portfolio website that easily customized with your details. All you need is to edit the json files in  `src\master-data` and add your details.
 
 
 <p align="center">
@@ -66,10 +66,15 @@ Simple portfolio website that easily customized with your details. All u need is
 ## Getting Started
 
 Follow below instructions for setup project locally and run.
+### Tech stack
+* [Node.js](https://nodejs.org/en/)
+* [React](https://reactjs.org/)
+* [Next.js](https://nextjs.org/)
+* [Talwind CSS](https://tailwindcss.com/)
 
 ### Prerequisites
 
-Download and install Docker desktop on your machine.[Docker desktop](https://www.docker.com/products/docker-desktop/)
+Download and install Node.js[Node.js](https://nodejs.org/en/)
 
 
 ### Installation
@@ -77,15 +82,29 @@ Download and install Docker desktop on your machine.[Docker desktop](https://www
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kashul/nodejs-simple-docker-compose-application.git
+   git clone https://github.com/kashul/my-portfolio.git
    ```
-2. Run docker desktop
-  
-2. Run docker compose file in its directory
+2. Install NPM packages
    ```sh
-   docker compose up
+   npm install
    ```
-4. Browse [http://localhost:3001/getDataFromAppOne](http://localhost:3001/getDataFromAppOne)
+  
+3. Build the project
+   ```sh
+   npm run build
+   ```
+4. Run the project
+   ```sh
+   npm run start
+   ```
+5. Run the project on development mode
+   ```sh
+   npm run dev
+   ```
+
+
+
+6. Browse [http://localhost:3000/](http://localhost:3000/)
 
 
 
