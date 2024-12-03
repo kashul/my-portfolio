@@ -87,7 +87,7 @@ export default function Activity({activity}:{activity: {
              onClick={() => {
                router.back()
              }}
-             data-autofocus
+            
            >
              back
            </button>

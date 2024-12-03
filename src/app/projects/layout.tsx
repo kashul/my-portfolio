@@ -47,7 +47,7 @@ export default function ProjectLayout({
         {children}
       
         {modalview}
-    
+        <div id="modal-root" />
        
       </Suspense>
     </ErrorBoundary>
