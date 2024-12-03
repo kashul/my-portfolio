@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className="container mx-auto   md:h-screen w-full">
-        <div className="flex flex-col m-5  md:flex-row h-full ">
+        <div className="flex flex-col m-2  md:flex-row h-full ">
           <div className="basis-1/2   self-center">
             <Image
               width={600}
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="container mx-auto   md:mb-10">
         <div className="flex  flex-row h-full">
          
-          <div className="md:basis-2/3 flex flex-col self-center m-5">
+          <div className="md:basis-2/3 flex flex-col self-center m-2">
             <div className="text-6xl text-slate-50 my-10">Skills</div>
             <div className="basis-1/2 flex  flex-wrap gap-10 self-center content-center">
               {rootdata.skills.values.map((skill, i) => (
