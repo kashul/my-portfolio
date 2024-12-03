@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className="container mx-auto   md:h-screen w-full">
-        <div className="flex flex-col  md:flex-row h-full ">
+        <div className="flex flex-col m-5  md:flex-row h-full ">
           <div className="basis-1/2   self-center">
             <Image
               width={600}
