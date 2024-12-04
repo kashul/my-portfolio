@@ -69,7 +69,7 @@ export default function Project({project}:{project: {
       <Swiper
    
         
-        // onSwiper={(swiper) => console.log('swiper')}
+     
         onClick={(swiper,event) =>{setSwiperInstance(swiper)}}
         spaceBetween={10}
         centeredSlides={true}
@@ -87,7 +87,7 @@ export default function Project({project}:{project: {
         })}
       </Swiper>
     </div>
-    <div className=" ">
+    <div >
     <a href={project.link} className="no-underline hover:underline text-sky-400">{project.link}</a>
     
     </div>
@@ -110,7 +110,7 @@ export default function Project({project}:{project: {
              onClick={() => {
                router.back()
              }}
-             data-autofocus
+             
            >
              back
            </button>

@@ -32,7 +32,7 @@ export default function Page() {
       console.log("Error", data);
       setResult(data.message);
     }
-    console.log('Form submitted with value:');
+    
   };
   
   return (
