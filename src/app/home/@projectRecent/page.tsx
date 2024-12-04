@@ -35,7 +35,7 @@ export default function ProjectRoute() {
           <div className="text-6xl text-slate-50 pt-5 h-1/6">Projects</div>
           <div className="zindex  h-4/6 flex items-center">
             <Swiper
-            centeredSlides={true}
+            // centeredSlides={true}
               loop={true}
               slidesPerView={3}
               spaceBetween={30}
