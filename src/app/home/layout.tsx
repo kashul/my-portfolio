@@ -31,7 +31,7 @@ export default function HomeLayout({
     // Simulating data fetch
     setRootJsonData(rootdata);
   }, []);
-  console.log("rootJsonData", rootJsonData);
+ 
 
   return (
     <ErrorBoundary

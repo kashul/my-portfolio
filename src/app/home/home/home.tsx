@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
       <div className="container mx-auto   md:h-screen w-full">
-        <div className="flex flex-col  md:flex-row h-full m-2">
-          <div className="basis-1/2  w-full h-full">
+        <div className="flex flex-col m-2  md:flex-row h-full ">
+          <div className="basis-1/2   self-center">
             <Image
               width={600}
-              height={(1560 / 1200) * 600}
+              height={1000}
               src={rootdata.intro.imageURL}
               alt={""}
               
