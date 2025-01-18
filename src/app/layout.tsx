@@ -34,8 +34,8 @@ export default function RootLayout({
   return (
     <html lang="en" >
       <body id="body" className={inter.className}>
-        {/* <Image className="homeimage sticky" 
-        src={rootdata.backgroundImageURL} width={100000} height={100000} alt={""}/> */}
+        <Image className="homeimage sticky" 
+        src={rootdata.backgroundImageURL} width={100000} height={100000} alt={""}/>
       {/* <img
           className="homeimage sticky"
           src={rootdata.backgroundImageURL}
